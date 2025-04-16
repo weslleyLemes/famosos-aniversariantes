@@ -46,7 +46,7 @@ function HomePage() {
     No final, diga com qual dessas o usuários tem mais afinidade com base nos dados anteriores, em uma única frase. obrigatoriamente alguem deve ser selecionado`;
   
     try {
-      const response = await fetch("http://localhost:3001/", {
+      const response = await fetch("https://backend-famosos.onrender.com/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
